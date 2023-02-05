@@ -64,6 +64,6 @@ int main (int argc , char** argv)
 	cv::namedWindow("gray_Image",WINDOW_NORMAL);
 	cv::imshow("gray_Image",gray_Image);
 	cv::waitKey(0);
-
+	free(gray_ptr);
 	return 0;	
 }

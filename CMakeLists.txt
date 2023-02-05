@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7)
 project(ImgProc)                 
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_STANDARD 11)
-set(SOURCE_FILES gray.cpp)
+set(SOURCE_FILES rgb2gray.cpp)
 add_executable(ImgProc ${SOURCE_FILES})
 
 # OpenCV wibs
